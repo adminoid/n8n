@@ -315,7 +315,7 @@ module.exports = {
 		},
 		create(context) {
 			const cwd = context.getCwd();
-			const locale = 'src/plugins/i18n/locales/en.json';
+			const locale = 'src/plugins/i18n/locales/ru.json';
 
 			const LOCALE_NAMESPACE = '$locale';
 			const LOCALE_FILEPATH = cwd.endsWith('editor-ui')
